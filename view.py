@@ -2,6 +2,7 @@ from sklearn.linear_model import LinearRegression
 import numpy as np
 
 # 모아놓은 데이터
+# 보기 쉽게 3일씩 나누어서 썼음. 날마다 그날의 조회수를 적어준다.
 views = np.array([144, 144, 146,
                   151, 155, 160,
                   164, 167, 171,
